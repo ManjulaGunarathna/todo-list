@@ -48,7 +48,8 @@ $result = $conn->query($sql);
         <?php
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "<li>" . $row["task_name"] ."-" . $row["created_at"] . " 
+                $formatted_date = date("F j, Y", strtotime($row["created_at"])); // Format the date
+                echo "<li>" . $row["task_name"] ." - Created on: " . $formatted_date . " 
                         <a href='edit.php?id=" . $row["id"] . "'>Edit</a> | 
                         <a href='delete.php?id=" . $row["id"] . "'>Delete</a>
                       </li>";
