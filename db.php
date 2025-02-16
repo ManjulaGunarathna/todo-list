@@ -13,6 +13,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }else{
 // If connection is successful
-echo "Connected successfully to the database!";
+//echo "Connected successfully to the database!";
 }
 ?>
