@@ -42,7 +42,7 @@ h2 {
 /* Form Styles */
 form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Stack input and button vertically */
     gap: 15px;
 }
 
