@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO tasks (task_name) VALUES ('$task_name')";
         
         if ($conn->query($sql) === TRUE) {
-            echo "New task added successfully!";
+            echo "<script>alert('New task added successfully');</script>"; // JavaScript alert
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
