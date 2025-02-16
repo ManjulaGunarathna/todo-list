@@ -48,7 +48,7 @@ $result = $conn->query($sql);
         <?php
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "<li>" . $row["task_name"] . " 
+                echo "<li>" . $row["task_name"] ."-" . $row["created_at"] . " 
                         <a href='edit.php?id=" . $row["id"] . "'>Edit</a> | 
                         <a href='delete.php?id=" . $row["id"] . "'>Delete</a>
                       </li>";
