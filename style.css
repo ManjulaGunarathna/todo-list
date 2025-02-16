@@ -32,6 +32,11 @@ h1 {
     color: #4CAF50;
     margin-bottom: 650px;
 }
+h2 {
+    text-align: center;
+    color: #195f1b;
+    margin-bottom: 650px;
+}
 
 /* Form Styles */
 form {
