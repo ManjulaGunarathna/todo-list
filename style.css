@@ -81,8 +81,8 @@ ul {
     list-style-type: none;
     padding: 0;
     margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto; 
+    margin-right: auto; /* Center the ul */
     width: 25%; /* You can adjust this width */
 }
 
