@@ -31,7 +31,7 @@ body {
 h1 {
     text-align: center;
     color: #4CAF50;
-    margin-bottom: 650px;
+    margin-bottom: 20px; /* Reduced bottom margin */
 }
 h2 {
     text-align: center;
