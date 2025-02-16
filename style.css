@@ -5,16 +5,18 @@
 }
 
 /* Body Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #dedbdb;
-    color: #333;
+body { 
+    font-family: 'Arial', sans-serif; 
+    background-color: #dedbdb; 
+    color: #333; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; /* Align content at the top */
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; 
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    text-align: center; /* Center the text in body */
+} 
 
 /* Main Container */
 .container {
